@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/in.rkvsraman.aws.cloudworkbench.feature_1.0.0.202009242326.jar" id="in.rkvsraman.aws.cloudworkbench.feature" version="1.0.0.202009242326">
+      <category name="CloudWorkbench"/>
+   </feature>
+   <category-def name="CloudWorkbench" label="Cloud Workbench"/>
+</site>
