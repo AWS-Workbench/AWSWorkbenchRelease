@@ -56,4 +56,4 @@ Install following eclipse plugins in Obeo Designer
 
 
 
-
+[Getting started](wiki/Getting-started-tutorial)
