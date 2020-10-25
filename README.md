@@ -1,6 +1,13 @@
 ![AWS Workbench logo](images/logo.png) 
+
+- [AWS Workbench](#aws-workbench)
+  * [What is AWS Workbench?](#what-is-aws-workbench-)
+  * [Installation](#installation)
+    + [Pre-requisites](#pre-requisites)
+    + [Install AWS Workbench](#install-aws-workbench)
+  * [[Create your first AWS Workbench project](docs/getting-started.md)](#-create-your-first-aws-workbench-project--docs-getting-startedmd-)
 #  AWS Workbench
-[TOCM]
+
 ## What is AWS Workbench?
 
  **AWS Workbench** is the first [ArchOps](https://en.wikipedia.org/wiki/DevOps#ArchOps) environment for designing and deploying AWS Infrastructure. 
