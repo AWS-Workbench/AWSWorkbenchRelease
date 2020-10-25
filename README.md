@@ -1,4 +1,4 @@
-![AWS Workbench logo](images/logo.png)
+![AWS Workbench logo](images/
 #  AWS Workbench
 
 ## What is AWS Workbench?
@@ -29,8 +29,6 @@ AWS Workbench features
  - Supports generation of blueprints using [AWS Solution Constructs](https://aws.amazon.com/solutions/constructs/) as recommended by AWS’s Solution Architects. 
  - Provides inbuilt support for commonly used AWS services 
  - Enables clear separation of generated code and further manual customization.
- 
- ![AWS Workbench Screenshot](images/Screenshot.png)
 
 ## Installation 
 
@@ -53,7 +51,13 @@ Install following eclipse plugins in Obeo Designer
 - [Eclipse Web Developer Tools](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0) 
 - [Eclipse Maven Plugin](https://www.eclipse.org/m2e/) 
 
+###  Install AWS Workbench
+- Clone this repository 
+- Install AWS Workbench plugin from [local zip](UpdateSite.zip) . *(Instructions on how to install eclipse plugins from zip file described [here](https://stackoverflow.com/questions/31553376/eclipse-how-to-install-a-plugin-manually/31553745))*
 
 
 
-[Getting started](wiki/Getting-started-tutorial)
+
+
+
+
