@@ -34,9 +34,9 @@ AWS Workbench features
 
 ## Installation 
 
-*** AWS Work Bench needs beginner level understanding of Java language and working with  [Eclipse](https://www.eclipse.org/) and installing plugins in Eclipse IDE.  It also needs good understanding of [AWS services](https://aws.amazon.com/products/) and  ability to read and understand [Javadocs](https://docs.aws.amazon.com/cdk/api/latest/java/index.html)  ***
+***AWS Work Bench needs beginner level understanding of Java language and working with  [Eclipse](https://www.eclipse.org/) and installing plugins in Eclipse IDE.  It also needs good understanding of [AWS services](https://aws.amazon.com/products/) and  ability to read and understand [Javadocs](https://docs.aws.amazon.com/cdk/api/latest/java/index.html)***
 
-*** AWS Workbench depends on multiple softwares and would need about an hour to set it all up. ***
+***AWS Workbench depends on multiple softwares and would need about an hour to set it all up.***
 
 ### Pre-requisites
 
