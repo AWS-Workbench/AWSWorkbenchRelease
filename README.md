@@ -29,6 +29,8 @@ AWS Workbench features
  - Supports generation of blueprints using [AWS Solution Constructs](https://aws.amazon.com/solutions/constructs/) as recommended by AWS’s Solution Architects. 
  - Provides inbuilt support for commonly used AWS services 
  - Enables clear separation of generated code and further manual customization.
+ 
+ ![AWS Workbench Screenshot](images/Screenshot.png)
 
 ## Installation 
 
