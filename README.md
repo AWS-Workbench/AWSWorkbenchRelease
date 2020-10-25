@@ -1,6 +1,6 @@
 ![AWS Workbench logo](images/logo.png) 
 #  AWS Workbench
-
+[TOCM]
 ## What is AWS Workbench?
 
  **AWS Workbench** is the first [ArchOps](https://en.wikipedia.org/wiki/DevOps#ArchOps) environment for designing and deploying AWS Infrastructure. 
@@ -56,6 +56,12 @@ Install following eclipse plugins in Obeo Designer
 ###  Install AWS Workbench
 - Clone this repository 
 - Install AWS Workbench plugin from [local zip](UpdateSite.zip) . *(Instructions on how to install eclipse plugins from zip file described [here](https://stackoverflow.com/questions/31553376/eclipse-how-to-install-a-plugin-manually/31553745))*
+- Start Obeo Designer and we are good to go  
+
+
+## [Create your first AWS Workbench project](docs/getting-started.md)
+
+
 
 ![create project](images/getting-started-images/create-project.gif)
 
