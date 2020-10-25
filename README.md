@@ -57,7 +57,7 @@ Install following eclipse plugins in Obeo Designer
 - Clone this repository 
 - Install AWS Workbench plugin from [local zip](UpdateSite.zip) . *(Instructions on how to install eclipse plugins from zip file described [here](https://stackoverflow.com/questions/31553376/eclipse-how-to-install-a-plugin-manually/31553745))*
 
-
+[getting started]
 
 
 
