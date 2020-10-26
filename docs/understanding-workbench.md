@@ -12,13 +12,35 @@ Users of this workbench are typically AWS Solution Architects or Engineers. The 
 
 ![Workflow](../images/getting-started-images/workflow.png)
 
-1. The user (an AWS architect) creates a workbench project and defines the infrastructure using the AWS services from tools palette. The diagram has an heirarchy as ```App -> Stack -> Block -> Sub Block -> AWS Service Components```. User may also define ```AWS Service Component``` directly under ```Block``` . 
+1. The user (an AWS architect) [creates a workbench project](./getting-started.md) and defines the infrastructure using the AWS services from tools palette. The diagram has an heirarchy as ```App -> Stack -> Block -> Sub Block -> AWS Service Components```. User may also define ```AWS Service Component``` directly under ```Block``` . 
 
-![App Diagram](../images/getting-started-images/mainAppExport.png) ![App Diagram](../images/getting-started-images/mainStackExport.png) 
+**Main App Tab**
+![App Diagram](../images/getting-started-images/mainAppExport.png) 
+
+
+**Stack Tab**
+![App Diagram](../images/getting-started-images/mainStackExport.png) 
 
 
 
-2. 
+  
+3. Each AWS Service component can be configured using the [properties editor](./properties-editor.md). 
+4. Code is generated from ```App``` Diagram Tab by ```Right Click on Canvas -> Generate -> Code``` . 
+5. Workbench reads the canvas information and the configuration from the properties editor to [generate java code](./sample-code-java.md) in a separate [Maven](https://maven.apache.org) project. The generated code uses [builder pattern](https://en.wikipedia.org/wiki/Builder_pattern). So the code for an ```AWS Bucket``` definition would look like 
+```java
+
+Bucket bucket = Bucket.Builder.create(this, "MyBucket")
+                           .versioned(true)
+                           .encryption(BucketEncryption.KMS_MANAGED)
+                           .build();
+
+
+```
+
+6. Once the code is generated, further refinements and additions to the infrastructre code by using the helper class in the ```Maven``` project. 
+7. [Cloudformation script](https://aws.amazon.com/cloudformation/) is generated using ```mvn package``` and ```cdk synth```.
+8. [Generated cloud formation script](./sample-code-cloudformation.md)  can be deployed using ```cdk deploy```
+
 
 
 ## The User Interface
