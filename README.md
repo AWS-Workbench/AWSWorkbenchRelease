@@ -68,7 +68,7 @@ Install following eclipse plugins in Obeo Designer
 
 ##  Getting started
 
-1. [Understanding AWS Workbench] (docs/understanding-workbench.md)
+1. [Understanding AWS Workbench](docs/understanding-workbench.md)
 2. [Quick start](docs/quick-start.md) with a sample project 
 3. Creating a [new AWS Workbench project](docs/getting-started.md)
 
