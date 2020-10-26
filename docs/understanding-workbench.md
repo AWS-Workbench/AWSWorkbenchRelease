@@ -6,13 +6,13 @@
 AWS Workbench is based on [AWS CDK](https://aws.amazon.com/cdk/) and [Eclipse Sirius](https://www.eclipse.org/sirius/). The workbench offers an Eclipse based [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) for designing and deploying AWS Services. 
 
 
-Users of this workbench are typically AWS Solution Architects or Engineers. The workbench makes it easy for the users to define the AWS infrastructure using simply dropping the required AWS services on a canvas. Each service can be configured using property editors. 
+Users of this workbench are typically AWS Solution Architects or Engineers. [The workbench](#the-user-interface) makes it easy for the users to define the AWS infrastructure using simply dropping the required AWS services on a canvas. Each service can be configured using [properties editor](./properties-editor.md). 
 
 ## The AWS Workbench workflow
 
 ![Workflow](../images/getting-started-images/workflow.png)
 
-1. The user (an AWS architect) [creates a workbench project](./getting-started.md) and defines the infrastructure using the AWS services from tools palette. The diagram has an heirarchy as ```App -> Stack -> Block -> Sub Block -> AWS Service Components```. User may also define ```AWS Service Component``` directly under ```Block``` . 
+1. The user (an AWS architect) [creates a workbench project](./getting-started.md) and defines the infrastructure using the AWS services from tools palette. The diagram has an [heirarchy](#the-diagram-components) as ```App -> Stack -> Block -> Sub Block -> AWS Service Components```. User may also define ```AWS Service Component``` directly under ```Block``` . 
 
 **Main App Tab**
 ![App Diagram](../images/getting-started-images/mainAppExport.png) 
