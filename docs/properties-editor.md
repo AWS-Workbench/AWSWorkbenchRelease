@@ -96,6 +96,33 @@ The generated code would be
 				.description("A Demo stack for ArchOps Demo").env(mainStackEnv).stackName("mainStack")
 				.tags(mainStack_tags).terminationProtection(true).build();
 ```
+## Access a method of a variable
+
+At times you would also need to access amethod of a declared service. For example [Subnet Builder](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Subnet.Builder.html) needs access to ```vpcId``` which can be accessed thru [getVpcId()](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Vpc.html#getVpcId--) method of [Vpc](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Vpc.html) service. 
+
+To reference this method of a variable in a property, we can surround it by ```~``` . See example below. 
+
+**VPC Properties**
+
+     ![stack props](../images/getting-started-images/vpcProps.png)
+
+**Subnet Properties**
+
+     ![stack props](../images/getting-started-images/subnetProps.png)
+
+The generated code would be 
+
+```java
+
+default_vpc = software.amazon.awscdk.services.ec2.Vpc.Builder.create(mainStack, "DEFAULT_VPC")
+				.cidr("10.0. 0.0/16").enableDnsHostnames(true).enableDnsSupport(true).maxAzs(2).natGateways(1)
+				.vpnGateway(true).build();
+
+subnetUS1A = software.amazon.awscdk.services.ec2.Subnet.Builder.create(mainStack, "SUBNETUS1A")
+				.availabilityZone("us-east-1a").cidrBlock("10.0. 0.0/16").vpcId(default_vpc.getVpcId())
+				.mapPublicIpOnLaunch(true).build();
+
+```
 
 
 
