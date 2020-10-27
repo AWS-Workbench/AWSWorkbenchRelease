@@ -32,45 +32,45 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 
 ## Mandatory properties 
 
-    - For ***App*** object, ```projectName```, ```packageName```, ```mainClassName```, ```varName``` and ```identifier``` are mandatory properties.
-    - For ***Block*** and ***Sub Block***, ```label``` is mandatory.
-    - For ***Stack*** and all other ***AWS Service Components***, ```varName``` and ```identifier``` are mandatory properties.
+- For ***App*** object, ```projectName```, ```packageName```, ```mainClassName```, ```varName``` and ```identifier``` are mandatory properties.
+- For ***Block*** and ***Sub Block***, ```label``` is mandatory.
+- For ***Stack*** and all other ***AWS Service Components***, ```varName``` and ```identifier``` are mandatory properties.
 
 ## Property types
-    - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
-    - To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
-    ![tooltip](../images/getting-started-images/tooltip.png) 
-    - For ```String```, ```Number``` and ```Reference```, a **Textbox** is provided to enter the values
-    ![textbox](../images/getting-started-images/textbox.png)
-    - A ```Boolean``` is represented by **Checkbox**  . 
-    ![checkbox](../images/getting-started-images/checkbox.png)
-    - ```Enum``` are represented by **Radio Buttons**
-    ![radio button](../images/getting-started-images/radiobutton.png)
-    - For ```List``` and ```Map``` , a **List Box** is provided.
-    ![list](../images/getting-started-images/map.png)
+- Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
+- To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
+![tooltip](../images/getting-started-images/tooltip.png) 
+- For ```String```, ```Number``` and ```Reference```, a **Textbox** is provided to enter the values
+![textbox](../images/getting-started-images/textbox.png)
+- A ```Boolean``` is represented by **Checkbox**  . 
+![checkbox](../images/getting-started-images/checkbox.png)
+- ```Enum``` are represented by **Radio Buttons**
+![radio button](../images/getting-started-images/radiobutton.png)
+- For ```List``` and ```Map``` , a **List Box** is provided.
+![list](../images/getting-started-images/map.png)
 
-    Clicking ```Add value``` button pops up a dialog box prompting to enter the list or map value 
+Clicking ```Add value``` button pops up a dialog box prompting to enter the list or map value 
 
-    List Item Dialog:
-    ![list item](../images/getting-started-images/listDialog.png)
+List Item Dialog:
+![list item](../images/getting-started-images/listDialog.png)
 
-    Map Item Dialog
-     ![map item](../images/getting-started-images/mapDialog.png)
+Map Item Dialog
+![map item](../images/getting-started-images/mapDialog.png)
 
 ## Using References
 
-    - There are 3 ways that you can access other objects and classes in **Direct variable access** , **Access a method of a variable** and **Invoke a static method on ca class**
-    - **Direct variable access**: Every AWS Service instance has a ```varName``` property. This is the reference to the service which can be used in other AWS Services where the service instance needs to be referenced. For example; if there is a instance of *Environment* object **mainStackEnv** is being reference by *Stack* instance **mainStack** 
+- There are 3 ways that you can access other objects and classes in **Direct variable access** , **Access a method of a variable** and **Invoke a static method on ca class**
+- **Direct variable access**: Every AWS Service instance has a ```varName``` property. This is the reference to the service which can be used in other AWS Services where the service instance needs to be referenced. For example; if there is a instance of *Environment* object **mainStackEnv** is being reference by *Stack* instance **mainStack** 
 
-    Environment Properties:
-    ![env props](../images/getting-started-images/envProps.png)
+Environment Properties:
+![env props](../images/getting-started-images/envProps.png)
 
-    Stack Properties: 
-    ![stack props](../images/getting-started-images/stackProps.png)
+Stack Properties: 
+![stack props](../images/getting-started-images/stackProps.png)
 
-    The generated code would be 
+The generated code would be 
 
-    ```java
+```java
 
         mainStackEnv = (new software.amazon.awscdk.core.Environment.Builder()).region("us-east-1").build();
 
@@ -83,7 +83,7 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 		mainStack = software.amazon.awscdk.core.Stack.Builder.create(app1, "MAINSTACK")
 				.description("A Demo stack for ArchOps Demo").env(mainStackEnv).stackName("mainStack")
 				.tags(mainStack_tags).terminationProtection(true).build();
-    ```
+```
 
 
 
