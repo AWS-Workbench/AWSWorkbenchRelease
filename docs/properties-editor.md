@@ -96,11 +96,11 @@ The generated code would be
 				.description("A Demo stack for ArchOps Demo").env(mainStackEnv).stackName("mainStack")
 				.tags(mainStack_tags).terminationProtection(true).build();
 ```
-## Access a method of a variable
+## Access an instance method of a variable (surround by ~ )
 
-At times you would also need to access amethod of a declared service. For example [Subnet Builder](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Subnet.Builder.html) needs access to ```vpcId``` which can be accessed thru [getVpcId()](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Vpc.html#getVpcId--) method of [Vpc](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Vpc.html) service. 
+At times you would need to access a method of a service instance. For example [Subnet Builder](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Subnet.Builder.html) needs access to ```vpcId``` which can be accessed thru [getVpcId()](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Vpc.html#getVpcId--) method of [Vpc](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Vpc.html) service. 
 
-To reference this method of a variable in a property, we can surround it by ```~``` . See example below. 
+To reference this method of a variable in a property, we can surround the expression with ```~```. See example below. 
 
 **VPC Properties**
 
@@ -125,6 +125,25 @@ subnetUS1A = software.amazon.awscdk.services.ec2.Subnet.Builder.create(mainStack
 ```
 
 
+## Access a static method of a class (surround by - )
+
+Similar to accessing a method of a service instance, you may also be required to access the static methods of a class. For example; The [instanceType](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/autoscaling/AutoScalingGroup.Builder.html#instanceType-software.amazon.awscdk.services.ec2.InstanceType-) method of [AutoScalingGroup Builder](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/autoscaling/AutoScalingGroup.Builder.html) needs to access the static method [of()](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/InstanceType.html#of-software.amazon.awscdk.services.ec2.InstanceClass-software.amazon.awscdk.services.ec2.InstanceSize-) of [InstanceType](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/InstanceType.html). 
+
+This can be acheived by surrounding the expressing with a ```-```. See example below. 
+
+![autoscaling Props](../images/getting-started-images/autoScalingProps.png)
+
+The generated code would be 
+
+```java
+
+autoScalingGroup16 = software.amazon.awscdk.services.autoscaling.AutoScalingGroup.Builder
+				.create(mainStack, "AUTOSCALINGGROUP16").allowAllOutbound(true).maxCapacity(2)
+				.replacingUpdateMinSuccessfulInstancesPercent(20).resourceSignalCount(4)
+				.instanceType(InstanceType.of(InstanceClass.BURSTABLE2, InstanceSize.MEDIUM))
+				.machineImage(new AmazonLinuxImage()).vpc(default_vpc).build();
+
+```
 
 
 
