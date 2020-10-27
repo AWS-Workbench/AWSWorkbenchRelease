@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<awsworkbench:AppBuilder_core xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:awsworkbench="http://www.amazon.com/awsworkbench" autoSynth_java_lang_Boolean_="true" context_java_lang_String__java_lang_String_AsMap="" runtimeInfo_java_lang_Boolean_="true" stackTraces_java_lang_Boolean_="true" treeMetadata_java_lang_Boolean_="true" varName="app1" identifier="App1" additionalCode="&#x9;&#x9;" projectName="ArchOpsDemoCode" packageName="in.rkvsraman.archopsdemo" mainClassName="ArchOpsDemo">
+  <environmentbuilder_core region_java_lang_String_="us-east-1" varName="mainStackEnv" identifier="MainStackENV"/>
+  <stackbuilder_core description_java_lang_String_="A Demo stack for ArchOps Demo " envWithEnvironment_software_amazon_awscdk_core_Environment_AsReference="mainStackEnv" stackName_java_lang_String_="mainStack" tags_java_lang_String__java_lang_String_AsMap="name:demoStack,env:primary,region:us-east-1" terminationProtection_java_lang_Boolean_="true" varName="mainStack" identifier="MAINSTACK">
+    <stackblocks label="LoadBalancer" canDeploy="true">
+      <blockresources xsi:type="awsworkbench:ApplicationLoadBalancerBuilder_elasticloadbalancingv2" dependsON="//@stackbuilder_core.0/@stackblocks.1/@blockresources.0" vpcWithIVpc_software_amazon_awscdk_services_ec2_IVpc_AsReference="default_vpc" deletionProtection_java_lang_Boolean_="true" internetFacing_java_lang_Boolean_="true" http2Enabled_java_lang_Boolean_="true" varName="applicationLoadBalancer11" identifier="APPLICATIONLOADBALANCER11"/>
+      <blockresources xsi:type="awsworkbench:AutoScalingGroupBuilder_autoscaling" dependsON="//@stackbuilder_core.0/@stackblocks.1/@blockresources.0" allowAllOutbound_java_lang_Boolean_="true" maxCapacity_java_lang_Number_="2" replacingUpdateMinSuccessfulInstancesPercent_java_lang_Number_="20" resourceSignalCount_java_lang_Number_="4" updateType_software_amazon_awscdk_services_autoscaling_UpdateType_="REPLACING_UPDATE" instanceTypeWithInstanceType_software_amazon_awscdk_services_ec2_InstanceType_AsReference="-InstanceType.of(InstanceClass.BURSTABLE2, InstanceSize.MEDIUM)-" machineImageWithIMachineImage_software_amazon_awscdk_services_ec2_IMachineImage_AsReference="-new AmazonLinuxImage()-" vpcWithIVpc_software_amazon_awscdk_services_ec2_IVpc_AsReference="default_vpc" varName="autoScalingGroup16" identifier="AUTOSCALINGGROUP16"/>
+    </stackblocks>
+    <stackblocks label="Compute" canDeploy="true">
+      <blockresources xsi:type="awsworkbench:VpcBuilder_ec2" cidr_java_lang_String_="10.0. 0.0/16" enableDnsHostnames_java_lang_Boolean_="true" enableDnsSupport_java_lang_Boolean_="true" maxAzs_java_lang_Number_="2" natGateways_java_lang_Number_="1" vpnGateway_java_lang_Boolean_="true" varName="default_vpc" identifier="DEFAULT_VPC"/>
+      <subblocks label="Subnet1" canDeploy="true">
+        <blockresources xsi:type="awsworkbench:SubnetBuilder_ec2" dependsON="//@stackbuilder_core.0/@stackblocks.1/@blockresources.0" availabilityZone_java_lang_String_="us-east-1a" cidrBlock_java_lang_String_="10.0. 0.0/16" vpcId_java_lang_String_="~default_vpc.getVpcId()~" mapPublicIpOnLaunch_java_lang_Boolean_="true" varName="subnetUS1A" identifier="SUBNETUS1A"/>
+      </subblocks>
+      <subblocks label="Subnet2" canDeploy="true">
+        <blockresources xsi:type="awsworkbench:SubnetBuilder_ec2" dependsON="//@stackbuilder_core.0/@stackblocks.1/@blockresources.0" availabilityZone_java_lang_String_="us-east-1b" cidrBlock_java_lang_String_="10.0. 0.0/16" vpcId_java_lang_String_="~default_vpc.getVpcId()~" varName="subnetUS1B" identifier="SUBNETUS1B"/>
+      </subblocks>
+    </stackblocks>
+    <stackblocks label="Database" canDeploy="true">
+      <blockresources xsi:type="awsworkbench:DatabaseInstanceBuilder_rds" vpcWithIVpc_software_amazon_awscdk_services_ec2_IVpc_AsReference="default_vpc" cloudwatchLogsRetention_software_amazon_awscdk_services_logs_RetentionDays_="ONE_WEEK" deleteAutomatedBackups_java_lang_Boolean_="true" deletionProtection_java_lang_Boolean_="true" iops_java_lang_Number_="1200" multiAz_java_lang_Boolean_="true" port_java_lang_Number_="3306" storageType_software_amazon_awscdk_services_rds_StorageType_="GP2" engineWithIInstanceEngine_software_amazon_awscdk_services_rds_IInstanceEngine_AsReference="-DatabaseInstanceEngine.MYSQL-" databaseName_java_lang_String_="mysqlMainDB" masterUsername_java_lang_String_="root" varName="rdsBackend" identifier="RDSBACKEND"/>
+    </stackblocks>
+    <stackblocks label="CloudFront and API" canDeploy="true">
+      <blockresources xsi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" dependsON="//@stackbuilder_core.0/@stackblocks.3/@blockresources.1" existingApiGatewayObjWithRestApi_software_amazon_awscdk_services_apigateway_RestApi_AsReference="sampleRestAPI" varName="cloudfront_api_gateway" identifier="CLOUDFRONT_API_GATEWAY"/>
+      <blockresources xsi:type="awsworkbench:RestApiBuilder_apigateway" restApiName_java_lang_String_="sampleAPI" varName="sampleRestAPI" identifier="RESTAPI"/>
+      <blockresources xsi:type="awsworkbench:MethodBuilder_apigateway" httpMethod_java_lang_String_="ANY" resourceWithIResource_software_amazon_awscdk_services_apigateway_IResource_AsReference="~sampleRestAPI.getRoot()~" varName="genericMethod" identifier="GENERICMETHOD"/>
+    </stackblocks>
+  </stackbuilder_core>
+</awsworkbench:AppBuilder_core>
