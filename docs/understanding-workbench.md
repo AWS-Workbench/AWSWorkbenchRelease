@@ -5,7 +5,7 @@
 
 AWS Workbench is based on [AWS CDK](https://aws.amazon.com/cdk/) and [Eclipse Sirius](https://www.eclipse.org/sirius/). The workbench offers an Eclipse based [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) for designing and deploying AWS Services. 
 
-![It's magic](images/magic.gif)
+![It's magic](../images/magic.gif)
 
  The workbench makes it easy for AWS Solution Architects and Engineers to define the AWS infrastructure using a simple Visual UI. Each service can be further configured using [properties editor](./properties-editor.md). 
 
