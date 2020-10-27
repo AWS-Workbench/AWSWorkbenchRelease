@@ -3,43 +3,43 @@
   <viewpoint:DAnalysis uid="_hK9ccPcvEeq12qZO7rN4YQ" selectedViews="_phaKAPcvEeq12qZO7rN4YQ" version="14.3.0.201909031200">
     <semanticResources>My.awsworkbench</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_phaKAPcvEeq12qZO7rN4YQ">
-      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_q-w40fcvEeq12qZO7rN4YQ" name="ArchOpsDemo" repPath="#_q9wzQPcvEeq12qZO7rN4YQ" changeId="f5a767d0-b016-4d37-ac3b-cd0013cd6130">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']"/>
         <target xmi:type="awsworkbench:AppBuilder_core" href="My.awsworkbench#/"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_845awfc9Eeq12qZO7rN4YQ" name="API_Gateway" repPath="#_83vkMPc9Eeq12qZO7rN4YQ" changeId="61ca23fd-edd6-4f75-982e-515572e38692">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_-c8AY_c9Eeq12qZO7rN4YQ" name="Load_Balancer" repPath="#_-bufcPc9Eeq12qZO7rN4YQ" changeId="081091d4-98f1-4334-a9de-75443ec2509b">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="__9VcIfc9Eeq12qZO7rN4YQ" name="Compute" repPath="#__8STQPc9Eeq12qZO7rN4YQ" changeId="2cf6fdae-ee47-4994-868a-5dd7d6f38714">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_4UWcE_c-Eeq12qZO7rN4YQ" name="Subnet1" repPath="#_4TSFEPc-Eeq12qZO7rN4YQ" changeId="6ac373b2-9020-4b32-876e-ccfddad8b1da">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="__PLgM_c-Eeq12qZO7rN4YQ" name="Subnet2" repPath="#__OHJMPc-Eeq12qZO7rN4YQ" changeId="e5cefb11-c3dd-481f-9e3b-1e206873d1de">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_VBi2gPfSEeqhRKhaRRyqAg" name="mainStack" repPath="#_U_0_QPfSEeqhRKhaRRyqAg" changeId="326e88a9-fabb-4ecc-940c-8bc85cda69b2">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']"/>
         <target xmi:type="awsworkbench:StackBuilder_core" href="My.awsworkbench#//@stackbuilder_core.0"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_biQtU_fZEeqhRKhaRRyqAg" name="Database" repPath="#_bhJTAPfZEeqhRKhaRRyqAg" changeId="aa9f42ad-89e7-413f-b5fc-ee0a9c0a9310">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.2"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_byA_8PguEeqx9MlsG8yD0g" name="TempBlock" repPath="#_bwbrkPguEeqx9MlsG8yD0g" changeId="fa30b606-9ea0-4a40-b307-73eeebe34ba3">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_0A0H8PvsEeqpuuJ6-SHlEg" name="CF_API" repPath="#_z_kx0PvsEeqpuuJ6-SHlEg" changeId="c6b85ea9-099e-4052-aaab-8ae9ba55bb3b">
-        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
@@ -234,9 +234,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_tdwq0fcvEeq12qZO7rN4YQ" labelSize="12" iconPath="/awsworkbench.design/icons/size16/stack.gif" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255" foregroundColor="255,255,255">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@style"/>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']"/>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_xyDpMPc9Eeq12qZO7rN4YQ" name="LoadBalancer">
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0"/>
         <semanticElements xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0"/>
@@ -245,9 +245,9 @@
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_xyDpMfc9Eeq12qZO7rN4YQ" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
           <labelFormat>bold</labelFormat>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_qpU2gPc-Eeq12qZO7rN4YQ" tooltipText="applicationLoadBalancer11&#xA;(ApplicationLoadBalancer)&#xA;" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:ApplicationLoadBalancerBuilder_elasticloadbalancingv2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0/@blockresources.0"/>
           <semanticElements xmi:type="awsworkbench:ApplicationLoadBalancerBuilder_elasticloadbalancingv2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0/@blockresources.0"/>
@@ -255,9 +255,9 @@
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qpU2gfc-Eeq12qZO7rN4YQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/elasticloadbalancingv2.gif">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='ApplicationLoadBalancer']/@style"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='ApplicationLoadBalancer']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='ApplicationLoadBalancer']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='ApplicationLoadBalancer']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_uLWM8fdYEeq12qZO7rN4YQ" tooltipText="autoScalingGroup16&#xA;(AutoScalingGroup)&#xA;" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:AutoScalingGroupBuilder_autoscaling" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0/@blockresources.1"/>
@@ -266,9 +266,9 @@
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_uLWM8vdYEeq12qZO7rN4YQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/autoscaling.gif">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='AutoScalingGroup']/@style"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='AutoScalingGroup']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='AutoScalingGroup']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='AutoScalingGroup']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_5YiSYPc9Eeq12qZO7rN4YQ" name="Compute">
@@ -279,9 +279,9 @@
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_5YiSYfc9Eeq12qZO7rN4YQ" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
           <labelFormat>bold</labelFormat>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_uAdxcPc-Eeq12qZO7rN4YQ" tooltipText="default_vpc&#xA;(Vpc)&#xA;" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:VpcBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@blockresources.0"/>
           <semanticElements xmi:type="awsworkbench:VpcBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@blockresources.0"/>
@@ -289,9 +289,9 @@
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_uAdxcfc-Eeq12qZO7rN4YQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/ec2.gif">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='Vpc']/@style"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='Vpc']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='Vpc']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='Vpc']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_wbaw8Pc-Eeq12qZO7rN4YQ" name="Subnet1">
           <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0"/>
@@ -301,9 +301,9 @@
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_wbaw8fc-Eeq12qZO7rN4YQ" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
             <labelFormat>bold</labelFormat>
-            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@style"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']"/>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']"/>
           <ownedDiagramElements xmi:type="diagram:DNode" uid="_7Y5LIPc-Eeq12qZO7rN4YQ" tooltipText="subnetUS1A&#xA;(Subnet)&#xA;" width="-1" height="-1" resizeKind="NSEW">
             <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
             <semanticElements xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
@@ -311,9 +311,9 @@
             <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
             <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
             <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_7Y5LIfc-Eeq12qZO7rN4YQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/ec2.gif">
-              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
           </ownedDiagramElements>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_yFIgwvc-Eeq12qZO7rN4YQ" name="Subnet2">
@@ -324,9 +324,9 @@
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_yFIgw_c-Eeq12qZO7rN4YQ" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
             <labelFormat>bold</labelFormat>
-            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@style"/>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']"/>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']"/>
           <ownedDiagramElements xmi:type="diagram:DNode" uid="_ANBogPc_Eeq12qZO7rN4YQ" tooltipText="subnetUS1B&#xA;(Subnet)&#xA;" width="-1" height="-1" resizeKind="NSEW">
             <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1/@blockresources.0"/>
             <semanticElements xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1/@blockresources.0"/>
@@ -334,9 +334,9 @@
             <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
             <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
             <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ANBogfc_Eeq12qZO7rN4YQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/ec2.gif">
-              <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
+              <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
             </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
           </ownedDiagramElements>
         </ownedDiagramElements>
       </ownedDiagramElements>
@@ -348,9 +348,9 @@
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_YSygqffZEeqhRKhaRRyqAg" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
           <labelFormat>bold</labelFormat>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_dYqOQPfZEeqhRKhaRRyqAg" tooltipText="rdsBackend&#xA;(DatabaseInstance)&#xA;" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:DatabaseInstanceBuilder_rds" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.2/@blockresources.0"/>
           <semanticElements xmi:type="awsworkbench:DatabaseInstanceBuilder_rds" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.2/@blockresources.0"/>
@@ -358,9 +358,9 @@
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_dYq1UPfZEeqhRKhaRRyqAg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/rds.gif">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='DatabaseInstance']/@style"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='DatabaseInstance']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='DatabaseInstance']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='DatabaseInstance']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ubrEYPvsEeqpuuJ6-SHlEg" name="CloudFront and API">
@@ -371,9 +371,9 @@
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ubsSgPvsEeqpuuJ6-SHlEg" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
           <labelFormat>bold</labelFormat>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_17sgQPvsEeqpuuJ6-SHlEg" tooltipText="cloudfront_api_gateway&#xA;(CloudFrontToApiGateway)&#xA;" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.0"/>
           <semanticElements xmi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.0"/>
@@ -381,9 +381,9 @@
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_17tHUPvsEeqpuuJ6-SHlEg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/constructs.gif">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='CloudFrontToApiGateway']/@style"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='CloudFrontToApiGateway']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='CloudFrontToApiGateway']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='CloudFrontToApiGateway']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_7pgXoPvsEeqpuuJ6-SHlEg" tooltipText="sampleRestAPI&#xA;(RestApi)&#xA;" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:RestApiBuilder_apigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.1"/>
@@ -392,9 +392,9 @@
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_7pgXofvsEeqpuuJ6-SHlEg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/apigateway.gif">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='RestApi']/@style"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='RestApi']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='RestApi']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='RestApi']"/>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_iHybcPvtEeqpuuJ6-SHlEg" tooltipText="genericMethod&#xA;(Method)&#xA;" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:MethodBuilder_apigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.2"/>
@@ -403,9 +403,9 @@
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_iHybcfvtEeqpuuJ6-SHlEg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/apigateway.gif">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='Method']/@style"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='Method']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='Method']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='Method']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
@@ -417,13 +417,13 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_DHEVkPcwEeq12qZO7rN4YQ" labelSize="12" showIcon="false" labelAlignment="LEFT" workspacePath="/awsworkbench.design/icons/size50/environment.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@nodeMappings[name='Environment']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@nodeMappings[name='Environment']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@nodeMappings[name='Environment']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@nodeMappings[name='Environment']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_q9wzQfcvEeq12qZO7rN4YQ"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer"/>
     <target xmi:type="awsworkbench:AppBuilder_core" href="My.awsworkbench#/"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_83vkMPc9Eeq12qZO7rN4YQ">
@@ -449,13 +449,13 @@
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_LzYrkPfXEeqhRKhaRRyqAg" name="mainCFApiGateway&#xA;(CloudFrontToApiGateway)&#xA;" tooltipText="mainCFApiGateway&#xA;(CloudFrontToApiGateway)&#xA;" width="-1" height="-1" resizeKind="NSEW">
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_LzYrkffXEeqhRKhaRRyqAg" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/constructs.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_83vkMfc9Eeq12qZO7rN4YQ"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_-bufcPc9Eeq12qZO7rN4YQ">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-c8AYPc9Eeq12qZO7rN4YQ" source="DANNOTATION_CUSTOMIZATION_KEY">
@@ -511,9 +511,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qoZCYfc-Eeq12qZO7rN4YQ" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/elasticloadbalancingv2.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='ApplicationLoadBalancer']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='ApplicationLoadBalancer']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='ApplicationLoadBalancer']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='ApplicationLoadBalancer']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_uIftQPdYEeq12qZO7rN4YQ" name="autoScalingGroup16&#xA;(AutoScalingGroup)&#xA;" tooltipText="autoScalingGroup16&#xA;(AutoScalingGroup)&#xA;" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="awsworkbench:AutoScalingGroupBuilder_autoscaling" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0/@blockresources.1"/>
@@ -523,13 +523,13 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_uIgUUPdYEeq12qZO7rN4YQ" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/autoscaling.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='AutoScalingGroup']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='AutoScalingGroup']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='AutoScalingGroup']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='AutoScalingGroup']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_-bufcfc9Eeq12qZO7rN4YQ"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
     <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="__8STQPc9Eeq12qZO7rN4YQ">
@@ -632,9 +632,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_t_aokfc-Eeq12qZO7rN4YQ" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/ec2.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Vpc']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Vpc']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Vpc']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Vpc']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_waHJYPc-Eeq12qZO7rN4YQ" name="Subnet1">
       <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0"/>
@@ -644,16 +644,16 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_waHwcPc-Eeq12qZO7rN4YQ" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@style"/>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']"/>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_7XbLgPc-Eeq12qZO7rN4YQ" name="subnetUS1A" tooltipText="subnetUS1A&#xA;(Subnet)&#xA;" outgoingEdges="_OwE4cPfSEeqhRKhaRRyqAg" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
         <semanticElements xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_7XbLgfc-Eeq12qZO7rN4YQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/ec2.gif">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_yDwAsPc-Eeq12qZO7rN4YQ" name="Subnet2">
@@ -664,37 +664,37 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_yDwAsfc-Eeq12qZO7rN4YQ" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@style"/>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']"/>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_ALjo4Pc_Eeq12qZO7rN4YQ" name="subnetUS1B" tooltipText="subnetUS1B&#xA;(Subnet)&#xA;" outgoingEdges="_McV7QPfSEeqhRKhaRRyqAg" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1/@blockresources.0"/>
         <semanticElements xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1/@blockresources.0"/>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ALjo4fc_Eeq12qZO7rN4YQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/ec2.gif">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@containerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_McV7QPfSEeqhRKhaRRyqAg" sourceNode="_ALjo4Pc_Eeq12qZO7rN4YQ" targetNode="_t_aokPc-Eeq12qZO7rN4YQ">
       <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_McaMsPfSEeqhRKhaRRyqAg" size="2" routingStyle="manhattan">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']/@style"/>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_McazwPfSEeqhRKhaRRyqAg" labelSize="12"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_OwE4cPfSEeqhRKhaRRyqAg" sourceNode="_7XbLgPc-Eeq12qZO7rN4YQ" targetNode="_t_aokPc-Eeq12qZO7rN4YQ">
       <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_OwE4cffSEeqhRKhaRRyqAg" size="2" routingStyle="manhattan">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']/@style"/>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_OwE4cvfSEeqhRKhaRRyqAg" labelSize="12"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="__8S6UPc9Eeq12qZO7rN4YQ"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
     <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_4TSFEPc-Eeq12qZO7rN4YQ">
@@ -722,13 +722,13 @@
       <semanticElements xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_7XD_Ifc-Eeq12qZO7rN4YQ" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/ec2.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Subnet']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Subnet']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Subnet']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Subnet']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_4TSsIPc-Eeq12qZO7rN4YQ"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
     <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="__OHJMPc-Eeq12qZO7rN4YQ">
@@ -756,13 +756,13 @@
       <semanticElements xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_ANSHMPc_Eeq12qZO7rN4YQ" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/ec2.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Subnet']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Subnet']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Subnet']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Subnet']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="__OHJMfc-Eeq12qZO7rN4YQ"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
     <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_U_0_QPfSEeqhRKhaRRyqAg">
@@ -1015,9 +1015,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_VAxac_fSEeqhRKhaRRyqAg" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@style"/>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']"/>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_VA9nsPfSEeqhRKhaRRyqAg" name="applicationLoadBalancer11" tooltipText="applicationLoadBalancer11&#xA;(ApplicationLoadBalancer)&#xA;" outgoingEdges="_0IYyvPfSEeqhRKhaRRyqAg" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="awsworkbench:ApplicationLoadBalancerBuilder_elasticloadbalancingv2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0/@blockresources.0"/>
         <semanticElements xmi:type="awsworkbench:ApplicationLoadBalancerBuilder_elasticloadbalancingv2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0/@blockresources.0"/>
@@ -1025,9 +1025,9 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_VA9nsffSEeqhRKhaRRyqAg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/elasticloadbalancingv2.gif">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='ApplicationLoadBalancer']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='ApplicationLoadBalancer']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='ApplicationLoadBalancer']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='ApplicationLoadBalancer']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_VA-OwPfSEeqhRKhaRRyqAg" name="autoScalingGroup16" tooltipText="autoScalingGroup16&#xA;(AutoScalingGroup)&#xA;" outgoingEdges="_y6li2PfSEeqhRKhaRRyqAg" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="awsworkbench:AutoScalingGroupBuilder_autoscaling" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0/@blockresources.1"/>
@@ -1036,9 +1036,9 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_VA-OwffSEeqhRKhaRRyqAg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/autoscaling.gif">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='AutoScalingGroup']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='AutoScalingGroup']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='AutoScalingGroup']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='AutoScalingGroup']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_VAxadffSEeqhRKhaRRyqAg" name="Compute">
@@ -1049,9 +1049,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_VAxadvfSEeqhRKhaRRyqAg" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@style"/>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']"/>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_VBDuUPfSEeqhRKhaRRyqAg" name="Subnet1">
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0"/>
         <semanticElements xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0"/>
@@ -1060,9 +1060,9 @@
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_VBDuUffSEeqhRKhaRRyqAg" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
           <labelFormat>bold</labelFormat>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_VBGKkPfSEeqhRKhaRRyqAg" name="subnetUS1A" tooltipText="subnetUS1A&#xA;(Subnet)&#xA;" outgoingEdges="_VBcI0PfSEeqhRKhaRRyqAg" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
           <semanticElements xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
@@ -1070,9 +1070,9 @@
           <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
           <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_VBGKkffSEeqhRKhaRRyqAg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/ec2.gif">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_VBDuU_fSEeqhRKhaRRyqAg" name="Subnet2">
@@ -1083,16 +1083,16 @@
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_VBEVYPfSEeqhRKhaRRyqAg" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
           <labelFormat>bold</labelFormat>
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@style"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']"/>
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_VBIm0PfSEeqhRKhaRRyqAg" name="subnetUS1B" tooltipText="subnetUS1B&#xA;(Subnet)&#xA;" outgoingEdges="_VBcI1ffSEeqhRKhaRRyqAg" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1/@blockresources.0"/>
           <semanticElements xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1/@blockresources.0"/>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_VBIm0ffSEeqhRKhaRRyqAg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/ec2.gif">
-            <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
+            <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
           </ownedStyle>
-          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']"/>
         </ownedDiagramElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_VBJN4PfSEeqhRKhaRRyqAg" name="default_vpc" tooltipText="default_vpc&#xA;(Vpc)&#xA;" incomingEdges="_VBcI0PfSEeqhRKhaRRyqAg _VBcI1ffSEeqhRKhaRRyqAg _y6li2PfSEeqhRKhaRRyqAg _0IYyvPfSEeqhRKhaRRyqAg" width="-1" height="-1" resizeKind="NSEW">
@@ -1102,42 +1102,42 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_VBJN4ffSEeqhRKhaRRyqAg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/ec2.gif">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='Vpc']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='Vpc']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='Vpc']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='Vpc']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_VBcI0PfSEeqhRKhaRRyqAg" sourceNode="_VBGKkPfSEeqhRKhaRRyqAg" targetNode="_VBJN4PfSEeqhRKhaRRyqAg">
       <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_VBcI0ffSEeqhRKhaRRyqAg" size="2" routingStyle="manhattan">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_VBcI0vfSEeqhRKhaRRyqAg" labelSize="12"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_VBcI1ffSEeqhRKhaRRyqAg" sourceNode="_VBIm0PfSEeqhRKhaRRyqAg" targetNode="_VBJN4PfSEeqhRKhaRRyqAg">
       <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_VBcI1vfSEeqhRKhaRRyqAg" size="2" routingStyle="manhattan">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_VBcI1_fSEeqhRKhaRRyqAg" labelSize="12"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_y6li2PfSEeqhRKhaRRyqAg" sourceNode="_VA-OwPfSEeqhRKhaRRyqAg" targetNode="_VBJN4PfSEeqhRKhaRRyqAg">
       <target xmi:type="awsworkbench:AutoScalingGroupBuilder_autoscaling" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0/@blockresources.1"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_y6li2ffSEeqhRKhaRRyqAg" size="2" routingStyle="manhattan">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_y6li2vfSEeqhRKhaRRyqAg" labelSize="12"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_0IYyvPfSEeqhRKhaRRyqAg" sourceNode="_VA9nsPfSEeqhRKhaRRyqAg" targetNode="_VBJN4PfSEeqhRKhaRRyqAg">
       <target xmi:type="awsworkbench:ApplicationLoadBalancerBuilder_elasticloadbalancingv2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.0/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_0IYyvffSEeqhRKhaRRyqAg" size="2" routingStyle="manhattan">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_0IYyvvfSEeqhRKhaRRyqAg" labelSize="12"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_YSLcoPfZEeqhRKhaRRyqAg" name="Database">
       <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.2"/>
@@ -1147,9 +1147,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_YSLcoffZEeqhRKhaRRyqAg" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@style"/>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']"/>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_da_wkPfZEeqhRKhaRRyqAg" name="rdsBackend" tooltipText="rdsBackend&#xA;(DatabaseInstance)&#xA;" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="awsworkbench:DatabaseInstanceBuilder_rds" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.2/@blockresources.0"/>
         <semanticElements xmi:type="awsworkbench:DatabaseInstanceBuilder_rds" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.2/@blockresources.0"/>
@@ -1157,9 +1157,9 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_da_wkffZEeqhRKhaRRyqAg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/rds.gif">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='DatabaseInstance']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='DatabaseInstance']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='DatabaseInstance']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='DatabaseInstance']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_uc6agfvsEeqpuuJ6-SHlEg" name="CloudFront and API">
@@ -1170,9 +1170,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_uc6agvvsEeqpuuJ6-SHlEg" labelSize="12" borderSize="1" borderSizeComputationExpression="1">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@style"/>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']"/>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_16IaAPvsEeqpuuJ6-SHlEg" name="cloudfront_api_gateway" tooltipText="cloudfront_api_gateway&#xA;(CloudFrontToApiGateway)&#xA;" outgoingEdges="_pyYvqPvtEeqpuuJ6-SHlEg" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.0"/>
         <semanticElements xmi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.0"/>
@@ -1180,9 +1180,9 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_16JBEPvsEeqpuuJ6-SHlEg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/constructs.gif">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='CloudFrontToApiGateway']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='CloudFrontToApiGateway']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='CloudFrontToApiGateway']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='CloudFrontToApiGateway']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_7n51IvvsEeqpuuJ6-SHlEg" name="sampleRestAPI" tooltipText="sampleRestAPI&#xA;(RestApi)&#xA;" incomingEdges="_pyYvqPvtEeqpuuJ6-SHlEg" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="awsworkbench:RestApiBuilder_apigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.1"/>
@@ -1191,9 +1191,9 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_7n51I_vsEeqpuuJ6-SHlEg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/apigateway.gif">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='RestApi']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='RestApi']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='RestApi']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='RestApi']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_iGRYgPvtEeqpuuJ6-SHlEg" name="genericMethod" tooltipText="genericMethod&#xA;(Method)&#xA;" width="-1" height="-1" resizeKind="NSEW">
         <target xmi:type="awsworkbench:MethodBuilder_apigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.2"/>
@@ -1202,22 +1202,22 @@
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_iGRYgfvtEeqpuuJ6-SHlEg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/apigateway.gif">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='Method']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='Method']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='Method']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subNodeMappings[name='Method']"/>
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pyYvqPvtEeqpuuJ6-SHlEg" sourceNode="_16IaAPvsEeqpuuJ6-SHlEg" targetNode="_7n51IvvsEeqpuuJ6-SHlEg">
       <target xmi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pyZWsPvtEeqpuuJ6-SHlEg" size="2" routingStyle="manhattan">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pyZWsfvtEeqpuuJ6-SHlEg" labelSize="12"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@edgeMappings[name='dependsOnRelation']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_U_4poPfSEeqhRKhaRRyqAg"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer"/>
     <target xmi:type="awsworkbench:StackBuilder_core" href="My.awsworkbench#//@stackbuilder_core.0"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_bhJTAPfZEeqhRKhaRRyqAg">
@@ -1245,13 +1245,13 @@
       <semanticElements xmi:type="awsworkbench:DatabaseInstanceBuilder_rds" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.2/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_dXrW0ffZEeqhRKhaRRyqAg" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/rds.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='DatabaseInstance']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='DatabaseInstance']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='DatabaseInstance']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='DatabaseInstance']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_bhJTAffZEeqhRKhaRRyqAg"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
     <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.2"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_bwbrkPguEeqx9MlsG8yD0g">
@@ -1335,9 +1335,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_eQiQ0PguEeqx9MlsG8yD0g" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/constructs.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_kQ9x4PtSEeq-4_pE5d_o1Q" name="restApi17&#xA;(RestApi)&#xA;" tooltipText="restApi17&#xA;(RestApi)&#xA;" width="-1" height="-1" resizeKind="NSEW">
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1345,9 +1345,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_kRAOIPtSEeq-4_pE5d_o1Q" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/apigateway.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='RestApi']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='RestApi']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='RestApi']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='RestApi']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_vDDbcPtSEeq-4_pE5d_o1Q" name="method18&#xA;(Method)&#xA;" tooltipText="method18&#xA;(Method)&#xA;" width="-1" height="-1" resizeKind="NSEW">
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1355,9 +1355,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_vDDbcftSEeq-4_pE5d_o1Q" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/apigateway.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Method']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Method']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Method']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Method']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_6yFOYPtSEeq-4_pE5d_o1Q" name="methodOptions19&#xA;(MethodOptions)&#xA;" tooltipText="methodOptions19&#xA;(MethodOptions)&#xA;" width="-1" height="-1" resizeKind="NSEW">
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1365,9 +1365,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_6yFOYftSEeq-4_pE5d_o1Q" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/apigateway.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='MethodOptions']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='MethodOptions']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='MethodOptions']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='MethodOptions']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_9ZIJIPtSEeq-4_pE5d_o1Q" name="integration20&#xA;(Integration)&#xA;" tooltipText="integration20&#xA;(Integration)&#xA;" width="-1" height="-1" resizeKind="NSEW">
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1375,9 +1375,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_9ZIwMPtSEeq-4_pE5d_o1Q" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/apigateway.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Integration']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Integration']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Integration']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Integration']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_Bhd3gPtTEeq-4_pE5d_o1Q" name="corsOptions21&#xA;(CorsOptions)&#xA;" tooltipText="corsOptions21&#xA;(CorsOptions)&#xA;" width="-1" height="-1" resizeKind="NSEW">
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1385,13 +1385,13 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_Bhd3gftTEeq-4_pE5d_o1Q" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/apigateway.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CorsOptions']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CorsOptions']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CorsOptions']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CorsOptions']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_bwbrkfguEeqx9MlsG8yD0g"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_z_kx0PvsEeqpuuJ6-SHlEg">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_0AszMPvsEeqpuuJ6-SHlEg" source="DANNOTATION_CUSTOMIZATION_KEY">
@@ -1456,9 +1456,9 @@
       <semanticElements xmi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_14h3gfvsEeqpuuJ6-SHlEg" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/constructs.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='CloudFrontToApiGateway']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_7mVu4PvsEeqpuuJ6-SHlEg" name="sampleRestAPI&#xA;(RestApi)&#xA;" tooltipText="sampleRestAPI&#xA;(RestApi)&#xA;" incomingEdges="_pyxxMPvtEeqpuuJ6-SHlEg" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="awsworkbench:RestApiBuilder_apigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.1"/>
@@ -1468,9 +1468,9 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_7mWV8PvsEeqpuuJ6-SHlEg" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/apigateway.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='RestApi']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='RestApi']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='RestApi']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='RestApi']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNode" uid="_iEvHcPvtEeqpuuJ6-SHlEg" name="genericMethod&#xA;(Method)&#xA;" tooltipText="genericMethod&#xA;(Method)&#xA;" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="awsworkbench:MethodBuilder_apigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.2"/>
@@ -1480,21 +1480,21 @@
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
       <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_iEvHcfvtEeqpuuJ6-SHlEg" labelSize="10" showIcon="false" labelAlignment="LEFT" borderSize="2" borderSizeComputationExpression="2" workspacePath="/awsworkbench.design/icons/size50/apigateway.gif">
         <labelFormat>bold</labelFormat>
-        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Method']/@style"/>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Method']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Method']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@nodeMappings[name='Method']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_pyxxMPvtEeqpuuJ6-SHlEg" sourceNode="_14h3gPvsEeqpuuJ6-SHlEg" targetNode="_7mVu4PvsEeqpuuJ6-SHlEg">
       <target xmi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.0"/>
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pyxxMfvtEeqpuuJ6-SHlEg" size="2" routingStyle="manhattan">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']/@style"/>
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pyxxMvvtEeqpuuJ6-SHlEg" labelSize="12"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']"/>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer/@edgeMappings[name='depends_on']"/>
     </ownedDiagramElements>
-    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_z_ocMPvsEeqpuuJ6-SHlEg"/>
-    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']/@defaultLayer"/>
     <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
