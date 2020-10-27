@@ -3,9 +3,12 @@
 
 # AWS Workbench Properties Editor
 
-Understanding properties editor is critical to use this tool effectively. 
+The properties editor define the characteristics of the AWS Service. 
 
-The properties editor define the characteristics of the AWS Service. For example following code would be generated 
+For example a stack defined by properties as below 
+![Properties view](../images/getting-started-images/propertiesView.png)
+
+would generate the following code. 
 
 ```java
 java.util.Map<java.lang.String, java.lang.String> mainStack_tags = new java.util.HashMap<java.lang.String, java.lang.String>();
@@ -20,7 +23,4 @@ java.util.Map<java.lang.String, java.lang.String> mainStack_tags = new java.util
 
 ```
 
-using the following properties described in Workbench UI 
-
-![Properties view](../images/getting-started-images/propertiesView.png)
-
+***Understanding properties editor is critical to use this tool effectively.***
