@@ -155,7 +155,7 @@ autoScalingGroup16 = software.amazon.awscdk.services.autoscaling.AutoScalingGrou
 
 ## A note on cyclic dependencies
 
-AWS Workbench determines the order of service creation using [topological sorting](https://en.wikipedia.org/wiki/Topological_sorting). The code generator would thrrow an error if it detects a cycle of dependencies. eg: A VPC referencing a Subnet and a Subnet referencing the VPC. In such reference only in those service which are dependent on the other.  
+AWS Workbench determines the order of service creation using [topological sorting](https://en.wikipedia.org/wiki/Topological_sorting). The code generator would throw an error if it detects a cycle of dependencies. eg: A VPC referencing a Subnet and a Subnet referencing the VPC. In such reference only in those service which are dependent on the other.  
 
 
 
