@@ -108,7 +108,9 @@ To reference this method of a variable in a property, we can surround the expres
 
 **Subnet Properties**
 
-![stack props](../images/getting-started-images/subnetProps.png)
+<img src="../images/getting-started-images/subnetProps.pn" height="100"/>
+
+
 
 The generated code would be 
 
@@ -131,7 +133,9 @@ Similar to accessing a method of a service instance, you may also be required to
 
 This can be acheived by surrounding the expressing with a ```-```. See example below. 
 
-![autoscaling Props](../images/getting-started-images/autoScalingProps.png)
+<img src="../images/getting-started-images/autoScalingProps.png" height="100"/>
+
+
 
 The generated code would be 
 
