@@ -40,20 +40,24 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
 - To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
 
-    ![tooltip](../images/getting-started-images/tooltip.png) 
+<img src="../images/getting-started-images/tooltip.png" height="50"/>
 
+  
 - For ```String```, ```Number``` and ```Reference```, a **Textbox** is provided to enter the values
 
-    ![textbox](../images/getting-started-images/textbox.png)
+<img src="../images/getting-started-images/textbox.png" height="25"/>
+  
 
 - A ```Boolean``` is represented by **Checkbox**  . 
 
-    ![checkbox](../images/getting-started-images/checkbox.png)
+<img src="../images/getting-started-images/checkbox.png" height="60"/>
+   
 
 - ```Enum``` are represented by **Radio Buttons**
 
-    ![radio button](../images/getting-started-images/radiobutton.png)
+<img src="../images/getting-started-images/radiobutton.png" height="30"/>
 
+  
 - For ```List``` and ```Map``` , a **List Box** is provided.
 
     ![list](../images/getting-started-images/map.png)
@@ -61,10 +65,14 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 Clicking ```Add value``` button pops up a dialog box prompting to enter the list or map value 
 
 List Item Dialog:
-    ![list item](../images/getting-started-images/listDialog.png)
+
+<img src="../images/getting-started-images/listDialog.png" height="200"/>
+   
 
 Map Item Dialog
-    ![map item](../images/getting-started-images/mapDialog.png)
+
+<img src="../images/getting-started-images/mapDialog.png" height="200"/>
+   
 
 # Using References
 
@@ -78,9 +86,7 @@ Environment Properties:
     ![env props](../images/getting-started-images/envProps.png)
 
 Stack Properties: 
-
-<img src="../images/getting-started-images/stackProps.png" height="100"/>
-  
+    ![stack props](../images/getting-started-images/stackProps.png)
 
 The generated code would be 
 
@@ -110,9 +116,7 @@ To reference this method of a variable in a property, we can surround the expres
 
 **Subnet Properties**
 
-<img src="../images/getting-started-images/subnetProps.png" height="100"/>
-
-
+![stack props](../images/getting-started-images/subnetProps.png)
 
 The generated code would be 
 
@@ -135,9 +139,7 @@ Similar to accessing a method of a service instance, you may also be required to
 
 This can be acheived by surrounding the expressing with a ```-```. See example below. 
 
-<img src="../images/getting-started-images/autoScalingProps.png" height="100"/>
-
-
+![autoscaling Props](../images/getting-started-images/autoScalingProps.png)
 
 The generated code would be 
 
