@@ -33,8 +33,13 @@ For example this is the [Buider](https://docs.aws.amazon.com/cdk/api/latest/java
 
 1. **Mandatory properties**: 
 
-- For ***App*** object, ```projectName```, ```packageName```, ```mainClassName```, ```varName``` and ```identifier``` are mandatory properties.
-- For ***Block*** and ***Sub Block***, ```label``` is mandatory.
-- For ***Stack*** and all other ***AWS Service Components***, ```varName``` and ```identifier``` are mandatory properties.
+    - For ***App*** object, ```projectName```, ```packageName```, ```mainClassName```, ```varName``` and ```identifier``` are mandatory properties.
+    - For ***Block*** and ***Sub Block***, ```label``` is mandatory.
+    - For ***Stack*** and all other ***AWS Service Components***, ```varName``` and ```identifier``` are mandatory properties.
 
 
+2. **Property types**:
+    - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
+    - To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
+    ![tooltip](../images/getting-started-images/tooltip.png)
+    - **String**: A 
