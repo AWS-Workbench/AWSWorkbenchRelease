@@ -104,11 +104,11 @@ To reference this method of a variable in a property, we can surround it by ```~
 
 **VPC Properties**
 
-     ![stack props](../images/getting-started-images/vpcProps.png)
+![stack props](../images/getting-started-images/vpcProps.png)
 
 **Subnet Properties**
 
-     ![stack props](../images/getting-started-images/subnetProps.png)
+![stack props](../images/getting-started-images/subnetProps.png)
 
 The generated code would be 
 
