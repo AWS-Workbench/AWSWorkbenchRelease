@@ -39,9 +39,9 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 2. **Property types**:
     - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
     - To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
-    ![tooltip](../images/getting-started-images/tooltip.png | height=25)
+    ![tooltip](../images/getting-started-images/tooltip.png) <!-- .element height=25-->
     - For ```String```, ```Number``` and ```Reference```, a **Textbox** is provided to enter the values
-    ![textbox](../images/getting-started-images/textbox.png | height=25)
+    ![textbox](../images/getting-started-images/textbox.png)
     - A ```Boolean``` is represented by **Checkbox**  . 
     ![checkbox](../images/getting-started-images/checkbox.png | height=50)
     - ```Enum``` are represented by **Radio Buttons**
