@@ -1,5 +1,4 @@
 
-[TOCM]
 
 # AWS Workbench Properties Editor
 
@@ -28,7 +27,7 @@ java.util.Map<java.lang.String, java.lang.String> mainStack_tags = new java.util
 
 Properties of AWS Services are modelled based on [Builder pattern](https://en.wikipedia.org/wiki/Builder_pattern) . 
 
-For example this is the [Buider](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/core/Stack.Builder.html) for ```Stack```. The names of the methods in the Builder become the property names in the Property editor. 
+For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/core/Stack.Builder.html) for ```Stack```. The names of the methods in the Builder become the property names in the Property editor. 
 
 
 1. **Mandatory properties**: 
@@ -42,4 +41,13 @@ For example this is the [Buider](https://docs.aws.amazon.com/cdk/api/latest/java
     - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
     - To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
     ![tooltip](../images/getting-started-images/tooltip.png)
-    - **String**: A 
+    - For ```String```, ```Number``` and ```Reference```, a **Textbox** is provided to enter the values
+    ![textbox](../images/getting-started-images/textbox.png)
+    - A ```Boolean``` is represented by **Checkbox**  . 
+    ![checkbox](../images/getting-started-images/checkbox.png)
+    - ```Enum``` are represented by **Radio Buttons**
+    ![radio button](../images/getting-started-images/radiobutton.png)
+    - For ```List``` and ```Map``` , a **List Box** is provided.
+    ![list](../images/getting-started-images/map.png)
+
+
