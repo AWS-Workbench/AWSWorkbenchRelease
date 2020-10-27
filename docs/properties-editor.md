@@ -78,7 +78,9 @@ Environment Properties:
     ![env props](../images/getting-started-images/envProps.png)
 
 Stack Properties: 
-    ![stack props](../images/getting-started-images/stackProps.png)
+
+<img src="../images/getting-started-images/stackProps.png" height="100"/>
+  
 
 The generated code would be 
 
@@ -108,7 +110,7 @@ To reference this method of a variable in a property, we can surround the expres
 
 **Subnet Properties**
 
-<img src="../images/getting-started-images/subnetProps.pn" height="100"/>
+<img src="../images/getting-started-images/subnetProps.png" height="100"/>
 
 
 
