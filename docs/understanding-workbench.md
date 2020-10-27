@@ -23,6 +23,8 @@ The diagram has an heirarchy as ```App -> Stack -> Block -> Sub Block -> AWS Ser
 
 **Stack Tab**
 ![App Diagram](../images/getting-started-images/mainStackExport.png) 
+The ```Stack``` and ```Block``` structures can be opened in independent tabs and have an uncluttered view. 
+
   
 3. Each AWS Service component can be configured using the [properties editor](./properties-editor.md). 
 4. Code is generated from ```App``` Diagram Tab by ```Right Click on Canvas -> Generate -> Code``` . 
