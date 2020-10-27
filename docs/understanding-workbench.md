@@ -13,10 +13,13 @@ AWS Workbench is based on [AWS CDK](https://aws.amazon.com/cdk/) and [Eclipse Si
 
 ![Workflow](../images/getting-started-images/workflow.png)
 
-1. The user (an AWS architect) [creates a workbench project](./getting-started.md) and defines the infrastructure using the AWS services from tools palette. The diagram has an heirarchy as ```App -> Stack -> Block -> Sub Block -> AWS Service Components```. User may also define ```AWS Service Component``` directly under ```Block``` . 
+1. The user (an AWS architect) [creates a workbench project](./getting-started.md) and defines the infrastructure using the AWS services visually using a drag and drop interface. 
 
 **Main App Tab**
 ![App Diagram](../images/getting-started-images/mainAppExport.png) 
+The diagram has an heirarchy as ```App -> Stack -> Block -> Sub Block -> AWS Service Components```. User may also define ```AWS Service Component``` directly under ```Block``` . 
+
+
 
 **Stack Tab**
 ![App Diagram](../images/getting-started-images/mainStackExport.png) 
