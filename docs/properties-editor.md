@@ -39,14 +39,23 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 ## Property types
 - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
 - To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
+
     ![tooltip](../images/getting-started-images/tooltip.png) 
+
 - For ```String```, ```Number``` and ```Reference```, a **Textbox** is provided to enter the values
+
     ![textbox](../images/getting-started-images/textbox.png)
+
 - A ```Boolean``` is represented by **Checkbox**  . 
+
     ![checkbox](../images/getting-started-images/checkbox.png)
+
 - ```Enum``` are represented by **Radio Buttons**
+
     ![radio button](../images/getting-started-images/radiobutton.png)
+
 - For ```List``` and ```Map``` , a **List Box** is provided.
+
     ![list](../images/getting-started-images/map.png)
 
 Clicking ```Add value``` button pops up a dialog box prompting to enter the list or map value 
@@ -57,10 +66,13 @@ List Item Dialog:
 Map Item Dialog
     ![map item](../images/getting-started-images/mapDialog.png)
 
-## Using References
+# Using References
 
-- There are 3 ways that you can access other objects and classes in **Direct variable access** , **Access a method of a variable** and **Invoke a static method on ca class**
-- **Direct variable access**: Every AWS Service instance has a ```varName``` property. This is the reference to the service which can be used in other AWS Services where the service instance needs to be referenced. For example; if there is a instance of *Environment* object **mainStackEnv** is being reference by *Stack* instance **mainStack** 
+There are 3 ways that you can access other objects and classes in **Direct variable access** , **Access a method of a variable** and **Invoke a static method on ca class**
+
+## Direct variable access
+
+Every AWS Service instance has a ```varName``` property. This is the reference to the service which can be used in other AWS Services where the service instance needs to be referenced. For example; if there is a instance of *Environment* object **mainStackEnv** is being reference by *Stack* instance **mainStack** 
 
 Environment Properties:
     ![env props](../images/getting-started-images/envProps.png)
