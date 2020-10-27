@@ -43,9 +43,9 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
     - For ```String```, ```Number``` and ```Reference```, a **Textbox** is provided to enter the values
     ![textbox](../images/getting-started-images/textbox.png)
     - A ```Boolean``` is represented by **Checkbox**  . 
-    ![checkbox](../images/getting-started-images/checkbox.png | height="50")
+    ![checkbox](../images/getting-started-images/checkbox.png | height=50px)
     - ```Enum``` are represented by **Radio Buttons**
-    ![radio button](../images/getting-started-images/radiobutton.png | height="25")
+    ![radio button](../images/getting-started-images/radiobutton.png | height=25px)
     - For ```List``` and ```Map``` , a **List Box** is provided.
     ![list](../images/getting-started-images/map.png | height=50)
 
