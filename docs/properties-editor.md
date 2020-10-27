@@ -30,13 +30,13 @@ Properties of AWS Services are modelled based on [Builder pattern](https://en.wi
 For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/core/Stack.Builder.html) for ```Stack```. The names of the methods in the Builder become the property names in the Property editor. 
 
 
-1. **Mandatory properties**: 
+## Mandatory properties 
 
     - For ***App*** object, ```projectName```, ```packageName```, ```mainClassName```, ```varName``` and ```identifier``` are mandatory properties.
     - For ***Block*** and ***Sub Block***, ```label``` is mandatory.
     - For ***Stack*** and all other ***AWS Service Components***, ```varName``` and ```identifier``` are mandatory properties.
 
-2. **Property types**:
+## Property types
     - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
     - To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
     ![tooltip](../images/getting-started-images/tooltip.png) 
@@ -57,7 +57,8 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
     Map Item Dialog
      ![map item](../images/getting-started-images/mapDialog.png)
 
-3. **Using References** 
+## Using References
+
     - There are 3 ways that you can access other objects and classes in **Direct variable access** , **Access a method of a variable** and **Invoke a static method on ca class**
     - **Direct variable access**: Every AWS Service instance has a ```varName``` property. This is the reference to the service which can be used in other AWS Services where the service instance needs to be referenced. For example; if there is a instance of *Environment* object **mainStackEnv** is being reference by *Stack* instance **mainStack** 
 
