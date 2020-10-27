@@ -22,7 +22,7 @@ The diagram has an heirarchy as ```App -> Stack -> Block -> Sub Block -> AWS Ser
 
 
 **Stack Tab**
-![App Diagram](../images/getting-started-images/mainStackExport.png) 
+![Stack Diagram](../images/getting-started-images/mainStackExport.png) 
 The ```Stack``` and ```Block``` structures can be opened in independent tabs and have an uncluttered view. 
 
   
@@ -40,7 +40,7 @@ Bucket bucket = Bucket.Builder.create(this, "MyBucket")
 ```
 
 6. Once the code is generated, further refinements and additions to the infrastructre code by using the helper class in the ```Maven``` project. 
-7. [Cloudformation script](https://aws.amazon.com/cloudformation/) is generated using ```mvn package``` and ```cdk synth```.
+7. [Cloudformation script](https://aws.amazon.com/cloudformation/) is generated using ```mvn package``` and ```cdk synth``` in the generated *Maven* project.
 8. [Generated cloud formation script](./sample-code-cloudformation.md)  can be deployed using ```cdk deploy```
 
 
@@ -52,7 +52,7 @@ Following screenshot shows the main components of the workbench
 The main components of workbench are:- 
 1. The project explorer for a heirarchical view of defined services
 2. Draw canvas for architectural view of the AWS services 
-3. Property editor used to configure each service. 
+3. [Property editor](./properties-editor.md) used to configure each service. 
 4. Tools Palette listing all the services and aws components available in the workbench. Users can drag any component and drop it into a ```Block``` or ```Sub Block``` area.  
 
 ## The Diagram components
@@ -60,6 +60,6 @@ The main components of workbench are:-
 ![Diagram components](../images/getting-started-images/ComponentHeirarchy.png)
 
 - ```App``` is the topmost component in any project. An App contains one or more ```Stack``` , ```Enviroment``` and ```DefaultStackSynthesizer``` structures. The *Environment* and *DefaultStackSynthesizer* are used to configure the *Stack* 
-- Each Stack consists of one or more ```Block``` structures. Each *Block* may contain one or more ```Sub Block``` structures. 
-- Each *Block* and *Sub Block* contain AWS Service components.   
+- Stack consists of one or more ```Block``` structures. *Block* may contain one or more ```Sub Block``` structures. 
+- *Block* and *Sub Block* contain AWS Service components.   
     
