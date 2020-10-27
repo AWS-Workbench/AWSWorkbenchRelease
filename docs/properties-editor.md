@@ -36,7 +36,6 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
     - For ***Block*** and ***Sub Block***, ```label``` is mandatory.
     - For ***Stack*** and all other ***AWS Service Components***, ```varName``` and ```identifier``` are mandatory properties.
 
-
 2. **Property types**:
     - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
     - To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
@@ -49,5 +48,17 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
     ![radio button](../images/getting-started-images/radiobutton.png)
     - For ```List``` and ```Map``` , a **List Box** is provided.
     ![list](../images/getting-started-images/map.png)
+
+    Clicking ```Add value``` button pops up a dialog box prompting to enter the list or map value 
+
+    List Item Dialog:
+    ![list item](../images/getting-started-images/listDialog.png)
+
+    Map Item Dialog
+     ![map item](../images/getting-started-images/mapDialog.png)
+
+
+
+
 
 
