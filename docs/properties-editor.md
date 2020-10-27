@@ -23,9 +23,7 @@
 5. Understanding the AWS Workbench UI 
      ![AWS Workbench Screenshot](../images/Screenshot.png)  
    -    
-6. Create new Tab for sub components
-7. Generate code 
-8. 
+
 
 
 

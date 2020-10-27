@@ -5,24 +5,21 @@
 
 AWS Workbench is based on [AWS CDK](https://aws.amazon.com/cdk/) and [Eclipse Sirius](https://www.eclipse.org/sirius/). The workbench offers an Eclipse based [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) for designing and deploying AWS Services. 
 
+![It's magic](images/magic.gif)
 
-Users of this workbench are typically AWS Solution Architects or Engineers. [The workbench](#the-user-interface) makes it easy for the users to define the AWS infrastructure using simply dropping the required AWS services on a canvas. Each service can be configured using [properties editor](./properties-editor.md). 
+ The workbench makes it easy for AWS Solution Architects and Engineers to define the AWS infrastructure using a simple Visual UI. Each service can be further configured using [properties editor](./properties-editor.md). 
 
 ## The AWS Workbench workflow
 
 ![Workflow](../images/getting-started-images/workflow.png)
 
-1. The user (an AWS architect) [creates a workbench project](./getting-started.md) and defines the infrastructure using the AWS services from tools palette. The diagram has an [heirarchy](#the-diagram-components) as ```App -> Stack -> Block -> Sub Block -> AWS Service Components```. User may also define ```AWS Service Component``` directly under ```Block``` . 
+1. The user (an AWS architect) [creates a workbench project](./getting-started.md) and defines the infrastructure using the AWS services from tools palette. The diagram has an heirarchy as ```App -> Stack -> Block -> Sub Block -> AWS Service Components```. User may also define ```AWS Service Component``` directly under ```Block``` . 
 
 **Main App Tab**
 ![App Diagram](../images/getting-started-images/mainAppExport.png) 
 
-
 **Stack Tab**
 ![App Diagram](../images/getting-started-images/mainStackExport.png) 
-
-
-
   
 3. Each AWS Service component can be configured using the [properties editor](./properties-editor.md). 
 4. Code is generated from ```App``` Diagram Tab by ```Right Click on Canvas -> Generate -> Code``` . 
@@ -52,11 +49,6 @@ The main components of workbench are:-
 2. Draw canvas for architectural view of the AWS services 
 3. Property editor used to configure each service. 
 4. Tools Palette listing all the services and aws components available in the workbench. Users can drag any component and drop it into a ```Block``` or ```Sub Block``` area.  
-
-
-
-
-
 
 ## The Diagram components
 
