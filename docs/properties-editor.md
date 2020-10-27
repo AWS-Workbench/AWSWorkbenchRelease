@@ -39,7 +39,6 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 2. **Property types**:
     - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
     - To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
-    <img src="../images/getting-started-images/tooltip.png" height="25">
     ![tooltip](../images/getting-started-images/tooltip.png) 
     - For ```String```, ```Number``` and ```Reference```, a **Textbox** is provided to enter the values
     ![textbox](../images/getting-started-images/textbox.png)
@@ -57,6 +56,34 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 
     Map Item Dialog
      ![map item](../images/getting-started-images/mapDialog.png)
+
+3. **Using References** 
+    - There are 3 ways that you can access other objects and classes in **Direct variable access** , **Access a method of a variable** and **Invoke a static method on ca class**
+    - **Direct variable access**: Every AWS Service instance has a ```varName``` property. This is the reference to the service which can be used in other AWS Services where the service instance needs to be referenced. For example; if there is a instance of *Environment* object **mainStackEnv** is being reference by *Stack* instance **mainStack** 
+
+    Environment Properties:
+    ![env props](../images/getting-started-images/envProps.png)
+
+    Stack Properties: 
+    ![stack props](../images/getting-started-images/stackProps.png)
+
+    The generated code would be 
+
+    ```java
+
+        mainStackEnv = (new software.amazon.awscdk.core.Environment.Builder()).region("us-east-1").build();
+
+		java.util.Map<java.lang.String, java.lang.String> mainStack_tags = new java.util.HashMap<java.lang.String, java.lang.String>();
+
+		mainStack_tags.put("name", "demoStack");
+		mainStack_tags.put("env", "primary");
+		mainStack_tags.put("region", "us-east-1");
+
+		mainStack = software.amazon.awscdk.core.Stack.Builder.create(app1, "MAINSTACK")
+				.description("A Demo stack for ArchOps Demo").env(mainStackEnv).stackName("mainStack")
+				.tags(mainStack_tags).terminationProtection(true).build();
+    ```
+
 
 
 
