@@ -4,7 +4,7 @@
     <semanticResources>My.awsworkbench</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_phaKAPcvEeq12qZO7rN4YQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_q-w40fcvEeq12qZO7rN4YQ" name="ArchOpsDemo" repPath="#_q9wzQPcvEeq12qZO7rN4YQ" changeId="c3810098-514f-4c18-b705-6591a8f5b959">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_q-w40fcvEeq12qZO7rN4YQ" name="ArchOpsDemo" repPath="#_q9wzQPcvEeq12qZO7rN4YQ" changeId="f5a767d0-b016-4d37-ac3b-cd0013cd6130">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']"/>
         <target xmi:type="awsworkbench:AppBuilder_core" href="My.awsworkbench#/"/>
       </ownedRepresentationDescriptors>
@@ -27,7 +27,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Block']"/>
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.1"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_VBi2gPfSEeqhRKhaRRyqAg" name="mainStack" repPath="#_U_0_QPfSEeqhRKhaRRyqAg" changeId="5ecba4d7-55c1-490d-9bad-e32e3149f5e3">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_VBi2gPfSEeqhRKhaRRyqAg" name="mainStack" repPath="#_U_0_QPfSEeqhRKhaRRyqAg" changeId="326e88a9-fabb-4ecc-940c-8bc85cda69b2">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']"/>
         <target xmi:type="awsworkbench:StackBuilder_core" href="My.awsworkbench#//@stackbuilder_core.0"/>
       </ownedRepresentationDescriptors>
@@ -210,7 +210,7 @@
             <styles xmi:type="notation:FilteringStyle" xmi:id="_td2KYvcvEeq12qZO7rN4YQ"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_td08QfcvEeq12qZO7rN4YQ" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_td08QvcvEeq12qZO7rN4YQ" x="27" y="18" width="732" height="543"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_td08QvcvEeq12qZO7rN4YQ" x="18" y="27" width="732" height="543"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_DHInAPcwEeq12qZO7rN4YQ" type="2001" element="_DHDugPcwEeq12qZO7rN4YQ">
           <children xmi:type="notation:Node" xmi:id="_DHInA_cwEeq12qZO7rN4YQ" type="5002">
@@ -366,6 +366,9 @@
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_ubrEYPvsEeqpuuJ6-SHlEg" name="CloudFront and API">
         <target xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3"/>
         <semanticElements xmi:type="awsworkbench:Block" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_ubsSgPvsEeqpuuJ6-SHlEg" labelSize="12" iconPath="/awsworkbench.design/icons/size16/block.gif" borderSize="1" borderSizeComputationExpression="1">
           <labelFormat>bold</labelFormat>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@style"/>
@@ -374,6 +377,9 @@
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_17sgQPvsEeqpuuJ6-SHlEg" tooltipText="cloudfront_api_gateway&#xA;(CloudFrontToApiGateway)&#xA;" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.0"/>
           <semanticElements xmi:type="awsworkbench:CloudFrontToApiGatewayBuilder_cloudfrontapigateway" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.3/@blockresources.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_17tHUPvsEeqpuuJ6-SHlEg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/constructs.gif">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='AWS%20App%20Definition']/@defaultLayer/@containerMappings[name='Stack']/@subContainerMappings[name='Blocks']/@subNodeMappings[name='CloudFrontToApiGateway']/@style"/>
           </ownedStyle>
@@ -770,7 +776,7 @@
           <children xmi:type="notation:Node" xmi:id="_VBrZZPfSEeqhRKhaRRyqAg" type="7001">
             <children xmi:type="notation:Node" xmi:id="_VByHEPfSEeqhRKhaRRyqAg" type="3007" element="_VA9nsPfSEeqhRKhaRRyqAg">
               <children xmi:type="notation:Node" xmi:id="_VByHE_fSEeqhRKhaRRyqAg" type="5003">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_VByHFPfSEeqhRKhaRRyqAg" x="17"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_VByHFPfSEeqhRKhaRRyqAg" x="-89" y="17"/>
               </children>
               <children xmi:type="notation:Node" xmi:id="_VByuJffSEeqhRKhaRRyqAg" type="3005" element="_VA9nsffSEeqhRKhaRRyqAg">
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_VByuJvfSEeqhRKhaRRyqAg" fontName=".AppleSystemUIFont"/>
@@ -804,14 +810,14 @@
               <children xmi:type="notation:Node" xmi:id="_VB0jUPfSEeqhRKhaRRyqAg" type="7002">
                 <children xmi:type="notation:Node" xmi:id="_VB1KYvfSEeqhRKhaRRyqAg" type="3007" element="_VBGKkPfSEeqhRKhaRRyqAg">
                   <children xmi:type="notation:Node" xmi:id="_VB1KZffSEeqhRKhaRRyqAg" type="5003">
-                    <layoutConstraint xmi:type="notation:Location" xmi:id="_VB1KZvfSEeqhRKhaRRyqAg" x="17"/>
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_VB1KZvfSEeqhRKhaRRyqAg" x="-18" y="17"/>
                   </children>
                   <children xmi:type="notation:Node" xmi:id="_VB1xcPfSEeqhRKhaRRyqAg" type="3005" element="_VBGKkffSEeqhRKhaRRyqAg">
                     <styles xmi:type="notation:ShapeStyle" xmi:id="_VB1xcffSEeqhRKhaRRyqAg" fontName=".AppleSystemUIFont"/>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VB1xcvfSEeqhRKhaRRyqAg"/>
                   </children>
                   <styles xmi:type="notation:ShapeStyle" xmi:id="_VB1KY_fSEeqhRKhaRRyqAg" fontName=".AppleSystemUIFont" fontHeight="12"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VB1KZPfSEeqhRKhaRRyqAg" x="31" y="30" width="16" height="16"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VB1KZPfSEeqhRKhaRRyqAg" x="32" y="17" width="16" height="16"/>
                 </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_VB0jUffSEeqhRKhaRRyqAg"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_VB0jUvfSEeqhRKhaRRyqAg"/>
@@ -892,7 +898,7 @@
             </children>
             <children xmi:type="notation:Node" xmi:id="_7poTcPvsEeqpuuJ6-SHlEg" type="3007" element="_7n51IvvsEeqpuuJ6-SHlEg">
               <children xmi:type="notation:Node" xmi:id="_7poTc_vsEeqpuuJ6-SHlEg" type="5003">
-                <layoutConstraint xmi:type="notation:Location" xmi:id="_7poTdPvsEeqpuuJ6-SHlEg" x="17"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_7poTdPvsEeqpuuJ6-SHlEg" x="-44" y="-16"/>
               </children>
               <children xmi:type="notation:Node" xmi:id="_7po6gPvsEeqpuuJ6-SHlEg" type="3005" element="_7n51I_vsEeqpuuJ6-SHlEg">
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_7po6gfvsEeqpuuJ6-SHlEg" fontName=".AppleSystemUIFont"/>
@@ -921,17 +927,17 @@
         <styles xmi:type="notation:DiagramStyle" xmi:id="_VBo9IffSEeqhRKhaRRyqAg"/>
         <edges xmi:type="notation:Edge" xmi:id="_VB2_lvfSEeqhRKhaRRyqAg" type="4001" element="_VBcI0PfSEeqhRKhaRRyqAg" source="_VB1KYvfSEeqhRKhaRRyqAg" target="_VB0jWvfSEeqhRKhaRRyqAg">
           <children xmi:type="notation:Node" xmi:id="_VB2_mvfSEeqhRKhaRRyqAg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VB2_m_fSEeqhRKhaRRyqAg" x="-1" y="4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VB2_m_fSEeqhRKhaRRyqAg" x="-7" y="4"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_VB2_nPfSEeqhRKhaRRyqAg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VB2_nffSEeqhRKhaRRyqAg" x="8" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VB2_nffSEeqhRKhaRRyqAg" x="6" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_VB2_nvfSEeqhRKhaRRyqAg" type="6003">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VB2_n_fSEeqhRKhaRRyqAg" x="-2" y="-29"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_VB2_l_fSEeqhRKhaRRyqAg" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_VB2_mPfSEeqhRKhaRRyqAg" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VB2_mffSEeqhRKhaRRyqAg" points="[8, -1, -262, 50]$[176, -1, -94, 50]$[176, 6, -94, 57]$[270, 6, 0, 57]$[270, -43, 0, 8]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VB2_mffSEeqhRKhaRRyqAg" points="[8, 1, -261, 39]$[175, 1, -94, 39]$[175, 19, -94, 57]$[269, 19, 0, 57]$[269, -30, 0, 8]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VB4NsPfSEeqhRKhaRRyqAg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VB4NsffSEeqhRKhaRRyqAg" id="(0.5,0.5)"/>
         </edges>
@@ -953,17 +959,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_y68vMPfSEeqhRKhaRRyqAg" type="4001" element="_y6li2PfSEeqhRKhaRRyqAg" source="_VByuIPfSEeqhRKhaRRyqAg" target="_VB0jWvfSEeqhRKhaRRyqAg">
           <children xmi:type="notation:Node" xmi:id="_y69WQPfSEeqhRKhaRRyqAg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y69WQffSEeqhRKhaRRyqAg" x="23" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y69WQffSEeqhRKhaRRyqAg" x="8" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_y69WQvfSEeqhRKhaRRyqAg" type="6002">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y69WQ_fSEeqhRKhaRRyqAg" x="-18" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_y69WRPfSEeqhRKhaRRyqAg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y69WRffSEeqhRKhaRRyqAg" x="32" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y69WRffSEeqhRKhaRRyqAg" x="17" y="10"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_y68vMffSEeqhRKhaRRyqAg" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_y68vMvfSEeqhRKhaRRyqAg" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_y68vM_fSEeqhRKhaRRyqAg" points="[0, 0, 110, -136]$[0, 136, 110, 0]$[-110, 136, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_y68vM_fSEeqhRKhaRRyqAg" points="[0, 0, 110, -136]$[0, 121, 110, -15]$[-118, 121, -8, -15]$[-118, 128, -8, -8]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y69WRvfSEeqhRKhaRRyqAg" id="(0.5625,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y69WR_fSEeqhRKhaRRyqAg" id="(1.0,0.5)"/>
         </edges>
@@ -985,17 +991,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_pzsXMPvtEeqpuuJ6-SHlEg" type="4001" element="_pyYvqPvtEeqpuuJ6-SHlEg" source="_179mAPvsEeqpuuJ6-SHlEg" target="_7poTcPvsEeqpuuJ6-SHlEg">
           <children xmi:type="notation:Node" xmi:id="_pzs-QPvtEeqpuuJ6-SHlEg" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pzs-QfvtEeqpuuJ6-SHlEg" x="-13" y="10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pzs-QfvtEeqpuuJ6-SHlEg" x="-16" y="10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_pztlUPvtEeqpuuJ6-SHlEg" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pztlUfvtEeqpuuJ6-SHlEg" x="-4" y="-10"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pztlUfvtEeqpuuJ6-SHlEg" x="-5" y="-10"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_pztlUvvtEeqpuuJ6-SHlEg" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pztlU_vtEeqpuuJ6-SHlEg" x="2" y="-1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pztlU_vtEeqpuuJ6-SHlEg" x="3" y="-1"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_pzsXMfvtEeqpuuJ6-SHlEg" routing="Rectilinear"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_pzsXMvvtEeqpuuJ6-SHlEg" fontName=".AppleSystemUIFont" fontHeight="12"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pzsXM_vtEeqpuuJ6-SHlEg" points="[-8, 14, 163, -1]$[-163, 14, 8, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pzsXM_vtEeqpuuJ6-SHlEg" points="[-8, 1, 163, -14]$[-85, 1, 86, -14]$[-85, 19, 86, 4]$[-163, 19, 8, 4]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pzwBkPvtEeqpuuJ6-SHlEg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pzwBkfvtEeqpuuJ6-SHlEg" id="(0.5,0.5)"/>
         </edges>
@@ -1060,6 +1066,9 @@
         <ownedDiagramElements xmi:type="diagram:DNode" uid="_VBGKkPfSEeqhRKhaRRyqAg" name="subnetUS1A" tooltipText="subnetUS1A&#xA;(Subnet)&#xA;" outgoingEdges="_VBcI0PfSEeqhRKhaRRyqAg" width="-1" height="-1" resizeKind="NSEW">
           <target xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
           <semanticElements xmi:type="awsworkbench:SubnetBuilder_ec2" href="My.awsworkbench#//@stackbuilder_core.0/@stackblocks.1/@subblocks.0/@blockresources.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
           <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_VBGKkffSEeqhRKhaRRyqAg" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" workspacePath="/awsworkbench.design/icons/size16/ec2.gif">
             <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/awsworkbench.design/description/awsworkbench.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Stack%20Definition']/@defaultLayer/@containerMappings[name='Block']/@subContainerMappings[name='Subblock']/@subNodeMappings[name='Subnet']/@style"/>
           </ownedStyle>

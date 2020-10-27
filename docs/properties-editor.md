@@ -38,7 +38,7 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 
 ## Property types
 - Properties can be of type ```String```, ```Number```,```Boolean```,```Enum```,```Reference```,```List``` and ```Map``` 
-- To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. 
+- To know the expected value for the property, hover on the ```?``` next to the property name. The information is available as a tooltip on the ```?``` symbol. When the expected value is a ```Reference``` , the complete class name is displayed in the tooltip. More information on the class is available at [AWS CDK Javadocs](https://docs.aws.amazon.com/cdk/api/latest/java/index.html)
 
 <img src="../images/getting-started-images/tooltip.png" height="50"/>
 
@@ -152,6 +152,10 @@ autoScalingGroup16 = software.amazon.awscdk.services.autoscaling.AutoScalingGrou
 				.machineImage(new AmazonLinuxImage()).vpc(default_vpc).build();
 
 ```
+
+## A note on cyclic dependencies
+
+AWS Workbench determines the order of service creation using [topological sorting](https://en.wikipedia.org/wiki/Topological_sorting). The code generator would thrrow an error if it detects a cycle of dependencies. eg: A VPC referencing a Subnet and a Subnet referencing the VPC. In such reference only in those service which are dependent on the other.  
 
 
 
