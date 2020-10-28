@@ -30,11 +30,18 @@ AWS Workbench features
  - Provides inbuilt support for commonly used AWS services 
  - Enables clear separation of generated code and further manual customization.
 
- ![AWS Workbench Screenshot](images/Screenshot.png) 
+
+## Technologies used 
+
+- Java 
+- [Eclipse Sirius](https://www.eclipse.org/sirius/) 
+- [AWS’s Cloud Development Kit](https://aws.amazon.com/cdk/)
+
+Knowledge of Java language, working with [Eclipse](https://www.eclipse.org/) and installing plugins in Eclipse IDE is a pre-requisite.  
+
+Solution Architect level understanding of [AWS services](https://aws.amazon.com/products/) and  ability to understand [Javadocs](https://docs.aws.amazon.com/cdk/api/latest/java/index.html) is necessary for effective use of this tool. 
 
 ## Installation 
-
-***AWS Work Bench needs beginner level understanding of Java language and working with  [Eclipse](https://www.eclipse.org/) and installing plugins in Eclipse IDE.  It also needs good understanding of [AWS services](https://aws.amazon.com/products/) and  ability to read and understand [Javadocs](https://docs.aws.amazon.com/cdk/api/latest/java/index.html)***
 
 ***AWS Workbench depends on multiple softwares and would need about an hour to set it all up.***
 
@@ -64,6 +71,20 @@ Install following eclipse plugins in Obeo Designer
 1. [Understanding AWS Workbench](docs/understanding-workbench.md)
 2. [Quick start](docs/quick-start.md) with a sample project 
 3. Creating a [new AWS Workbench project](docs/getting-started.md)
+
+
+## Roadmap 
+- Continuous improvement and addition of new services from AWS 
+- Create [Landing Zone](https://aws.amazon.com/solutions/implementations/aws-landing-zone/) and [Control Tower](https://aws.amazon.com/controltower/) constructs
+- Extend Workbench to [CDK8S](https://cdk8s.io/)
+- Extend Workbench to [Azure](https://azure.microsoft.com/en-in/) and [Google Cloud](https://cloud.google.com/) using [Pulumi](https://www.pulumi.com/)
+
+
+
+
+
+
+
 
 
 
