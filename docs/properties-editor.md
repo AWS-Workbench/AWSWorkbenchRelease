@@ -153,6 +153,14 @@ autoScalingGroup16 = software.amazon.awscdk.services.autoscaling.AutoScalingGrou
 
 ```
 
+## About importExistingResource 
+
+All AWS Service Components have a property called ```importExistingResource``` . This property is used to import existing resource. For example [fromLookup()](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Vpc.html#fromLookup-software.constructs.Construct-java.lang.String-software.amazon.awscdk.services.ec2.VpcLookupOptions-) method in [VPC](https://docs.aws.amazon.com/cdk/api/latest/java/software/amazon/awscdk/services/ec2/Vpc.html). More information on importing existing resource is described [here](https://garbe.io/blog/2019/09/20/hey-cdk-how-to-use-existing-resources/).
+
+## About additionalCode
+
+This property is not used for now. Values in this field have no effect on the generated code. 
+
 ## A note on cyclic dependencies
 
 AWS Workbench determines the order of service creation using [topological sorting](https://en.wikipedia.org/wiki/Topological_sorting). The code generator would throw an error if it detects a cycle of dependencies. eg: A VPC referencing a Subnet and a Subnet referencing the VPC. In such cases, use reference in those services which are dependent on the other (Reference in Subnet instead of VPC) .  

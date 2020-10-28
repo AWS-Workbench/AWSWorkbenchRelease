@@ -1,28 +1,27 @@
 
 [TOCM]
 
-# AWS Workbench getting started guide
+# AWS Workbench Quick Start Guide
 
-1. Open Obeo Designer 
-2. Create a new modelling project 
-    - ``` Right Click on Project Explorer -> New -> Modelling Project   ```
-    - Enter the name of the project.
-    - Click  ```Finish```
-    ![create project](../images/getting-started-images/create-project.gif)
-3. Create a new AwsWorkbench model 
-    - ```Right click on project -> New -> Other```
-    - Select ```AWSWorkbench model``` from the ```Select Wizard```. Click ```Next```
-    - Type the name of the awsworkbench model.  Click ```Next```
-    - Select ```App Builder core``` from the dropdown list. Click ```Finish```.
-     ![create awsworkbench model](../images/getting-started-images/create-app-workbench.gif)
-4. Create the App Diagram. 
-    - ```Expand Project Tree -> Select App null node -> Right Click App null node -> New Representation -> Other ```
-    - Select ```AWS App Definition``` and click ```Finish```
-    - Type a name for your diagram and click ```OK```
-    ![create awsworkbench model](../images/getting-started-images/create-app-diagram.gif)
-5. Understanding the AWS Workbench UI 
-     ![AWS Workbench Screenshot](../images/Screenshot.png)  
-   -    
+This guide assumes that you have [set up](../README.md#installation) Obeo Designer successfully, cloned this repository and installed the workbench plugin. 
+
+
+
+1. Open Obeo Designer.
+2. Import ```ArchOpsDemo``` project under ```sample``` folder into you Obeo workspce. Click [here](../images/getting-started-images/import-project.gif) to see how to import the project. 
+3. Generate Java code 
+- Open the ```ArchOpsDemo``` diagram .
+- On the Canvas ```Right Click -> Generate -> Code ```
+- On the newly created project ```Right Click -> Maven -> Update Project```
+- Click [here](../images/getting-started-images/export-code.gif) to see how to generate java code.
+4. Generate Cloud formation script. 
+- Open Terminal 
+- Navigate to the directory of the newly formed project
+- Run commands ```mvn package``` and then ```cdk synth```. 
+- Cloud formation script will be generated in the ```cdk.out``` folder in the project directory
+- Click [here](../images/getting-started-images/generate-cf.gif) to see how to generate cloud formation script.
+5. The generated script can be deployed to AWS account using ```cdk deploy``` . 
+       
 
 
 
