@@ -33,7 +33,7 @@ For example this is the [Builder](https://docs.aws.amazon.com/cdk/api/latest/jav
 ## Mandatory properties 
 
 - For ***App*** object, ```projectName```, ```packageName```, ```mainClassName```, ```varName``` and ```identifier``` are mandatory properties.
-- For ***Block*** and ***Sub Block***, ```label``` is mandatory.
+- For ***Block*** and ***Sub Block***, ```label``` is mandatory. *Block* has one more property called ```canDeploy```. Until the value of **canDeploy** is ```true```, Block content is in *draft* state and the corresponding code ***will not be exported***. Neither the elements from the Block can be referenced in other blocks. 
 - For ***Stack*** and all other ***AWS Service Components***, ```varName``` and ```identifier``` are mandatory properties.
 
 ## Property types
@@ -155,7 +155,7 @@ autoScalingGroup16 = software.amazon.awscdk.services.autoscaling.AutoScalingGrou
 
 ## A note on cyclic dependencies
 
-AWS Workbench determines the order of service creation using [topological sorting](https://en.wikipedia.org/wiki/Topological_sorting). The code generator would throw an error if it detects a cycle of dependencies. eg: A VPC referencing a Subnet and a Subnet referencing the VPC. In such reference only in those service which are dependent on the other.  
+AWS Workbench determines the order of service creation using [topological sorting](https://en.wikipedia.org/wiki/Topological_sorting). The code generator would throw an error if it detects a cycle of dependencies. eg: A VPC referencing a Subnet and a Subnet referencing the VPC. In such cases, use reference in those services which are dependent on the other (Reference in Subnet instead of VPC) .  
 
 
 
