@@ -36,6 +36,7 @@
 - On the right, you can see the Services arranged in alphabetical order. 
 - Drag and drop the services on the Block and configure using [properties editor](./properties-editor.md).
 - [Demo clip](../images/getting-started-images/creating-services.gif)
+8. After defining all the components, follow the [quick start tutorial](./quick-start.md#generate-java-code) to generate code and deploy. 
       
 
 
