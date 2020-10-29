@@ -5,16 +5,18 @@
       version="1.0.0.qualifier"
       provider-name="RKVS Raman">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description>
+     Cloud Workbench is an IDE enabling E2E Design -> Develop -> Deploy cycle for AWS Infrastructure
+     
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+   <copyright>
+      Copyright (C) 2020 RKVS Raman
    </copyright>
 
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
+   <license>
+       This program and the accompanying materials are made
+  available for use without any warranty.  
    </license>
 
    <plugin
